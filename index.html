@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gap"></div>
+    <div class="container">
+        <input class="display" id="display" value="0">
+        <div class="collection2">
+            <input class="bigButton1" value="AC" onclick="del()" type="button">
+            <input class="bigButton2" value="=" onclick="compute()" type="button">
+        </div>
+        <div class="collection">
+            <input class="smallButton" onclick="display('1')" value="1" type="button">
+            <input class="smallButton" onclick="display('2')" value="2" type="button">
+            <input class="smallButton" onclick="display('3')" value="3" type="button">
+            <input class="smallButton" onclick="log2() " value="log2" type="button">
+            <input class="smallButton" onclick="cosine() " value="cos" type="button">
+
+        </div>
+        <div class="collection">
+            <input class="smallButton" onclick="display('4')" value="4" type="button">
+            <input class="smallButton" onclick="display('5')" value="5" type="button">
+            <input class="smallButton" onclick="display('6')" value="6" type="button">
+            <input class="smallButton" value="log" type="button" onclick="logg()">
+            <input class="smallButton" onclick="tan2()" value="tan" type="button">
+
+        </div>
+        <div class="collection">
+            <input class="smallButton" onclick="display('7')" value="7" type="button">
+            <input class="smallButton" onclick="display('8')" value="8" type="button">
+
+            <input class="smallButton" onclick="display('9')" value="9" type="button">
+            <input class="smallButton" onclick="sine2()" value="sin" type="button">
+            <input class="smallButton" value="V" type="button" onclick="sqrtt()">
+
+        </div>
+        <div class="collection">
+            <input class="smallButton" onclick="display('0')" value="0" type="button">
+            <input class="smallButton" value="%" type="button">
+            <input class="smallButton" value="EXP" type="button">
+            <input class="smallButton" value="rad" type="button">
+            <input class="smallButton" value="deg" type="button">
+        </div>
+        <div class="collection">
+            <input class="smallButton" onclick="display('+')" value="+" type="button">
+            <input class="smallButton" onclick="display('-')" value="-" type="button">
+            <input class="smallButton" onclick="display('/')" value="/" type="button">
+            <input class="smallButton" onclick="display('.')" value="." type="button">
+            <input class="smallButton" onclick="display('*')" value="X" type="button">
+        </div>
+        <div class="collection">
+            <input class="smallButton" value="round" type="button" onclick="roundd()">
+            <input class="smallButton" value="π" type="button" onclick="pii()">
+            <input class="smallButton" value="sign" type="button" onclick="signn()">
+            <input class="smallButton" value="abs" type="button" onclick="abbss()">
+            <input class="smallButton" value="rand" type="button" onclick="rannd()">
+        </div>
+        <div class="collection">
+            <input class="smallButton" value="hyp" type="button">
+            <input class="smallButton" value="trace" type="button">
+            <input class="smallButton" value="range" type="button">
+            <input class="shiftButton" value="SHIFT" type="button">
+            <input class="alphaButton" value="ALPHA" type="button">
+        </div>
+        <div class="collection2">
+            <input class="bigButton1" value="OFF" onclick="turnOff()" type="button">
+        </div>
+
+    </div>
+    <div class="gap"></div>
+    <h3>made with love by Pharm Luka</h3>
+    <script src="script.js"></script>
+</body>
+
+</html>
